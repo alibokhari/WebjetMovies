@@ -1,0 +1,13 @@
+<h1>Cheapest Movies</h1>
+<div *ngFor="let cheapestmovie of cheapestMovies" class="item_content">
+  <div class="posterbox"><img src="{{cheapestmovie.poster}}" class="poster" /></div>
+  <div class="details">
+    <div class="title">{{cheapestmovie.title.split(':')[0]}} - {{cheapestmovie.rated}}</div>
+    <div class="subtitle">{{cheapestmovie.title.split(':')[1].trim()}}</div>
+    <div class="item">Release : {{cheapestmovie.year}}</div>
+    <div class="item">Director : {{cheapestmovie.director}}</div>
+    <div class="item">Cast : {{cheapestmovie.actors}}</div>
+    <div class="price">{{cheapestmovie.provider}}</div>
+    <div class="price">Price : ${{cheapestmovie.price}}</div>
+  </div>
+</div>

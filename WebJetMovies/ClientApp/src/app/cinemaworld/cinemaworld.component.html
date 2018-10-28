@@ -1,0 +1,12 @@
+<h1>Cinema World Movies</h1>
+<div *ngFor="let movie of cinemaworldMovies" class="item_content">
+  <div class="posterbox"><img src="{{movie.poster}}" class="poster" /></div>
+  <div class="details">
+    <div class="title">{{movie.title.split(':')[0]}} - {{movie.rated}}</div>
+    <div class="subtitle">{{movie.title.split(':')[1].trim()}}</div>
+    <div class="item">Release : {{movie.year}}</div>
+    <div class="item">Director : {{movie.director}}</div>
+    <div class="item">Cast : {{movie.actors}}</div>
+    <div class="price">Price : ${{movie.price}}</div>
+  </div>
+</div>

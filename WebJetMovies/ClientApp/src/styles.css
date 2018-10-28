@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+.item_content {
+  float: left;
+  margin: 0.5em;
+  padding: 0.5em;
+  min-width: 25em;
+  max-height: 13em;
+  min-height: 13em;
+  background-color: white;
+  border-radius: 0.2em;
+  box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.16), 0 0.1em 0.3em rgba(0,0,0,0.23);
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+  max-width: 15em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item {
+  font-size: smaller;
+  text-wrap: normal;
+  max-width: 15em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.price {
+  font-size: medium;
+  font-weight: bold;
+  text-wrap: normal;
+  max-width: 15em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subtitle {
+  font-size: smaller;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.poster {
+  max-width: 10em;
+  max-height: 10em;
+}
+
+.posterbox {
+  float: left;
+  max-width: 10em;
+  max-height: 10em;
+}
+
+.details {
+  float: left;
+  padding-left: 0.5em;
+}
